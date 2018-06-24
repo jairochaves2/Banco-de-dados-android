@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">IFSP - Jairo Chaves</string>
+    <string name="mascara_telefone">(88)99999-9999</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="desenvolvido_por">Desenvolvido por: </string>
+    <string name="agenda">Agenda</string>
+    <string name="jairo_chaves"> Jairo Chaves</string>
+    <string name="dados">Cadastrar Dados</string>
+    <string name="view">Ver dados</string>
+    <string name="voltar">Voltar</string>
+    <string name="ex_123_456_789_00">Ex:123.456.789-00</string>
+    <string name="nome_completo">Nome Completo:</string>
+    <string name="cpf">CPF:</string>
+    <string name="idade">Idade:</string>
+    <string name="telefone">Telefone:</string>
+    <string name="e_mail">E-mail:</string>
+</resources>

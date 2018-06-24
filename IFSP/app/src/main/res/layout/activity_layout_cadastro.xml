@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20px"
+    tools:context=".view.LayoutCadastro">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/nome_completo"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/tv_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nome"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="14pt"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/cpf"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/tv_cpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cpf"
+        android:textSize="12pt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/idade"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/tv_idade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="idade"
+        android:textSize="12pt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/telefone"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/tv_telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="12pt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/e_mail"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:textSize="12pt"
+        />
+</LinearLayout>

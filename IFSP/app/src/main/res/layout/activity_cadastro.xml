@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.CadastroActivity">
+    <LinearLayout
+        android:padding="12px"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="12px"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="@string/nome_completo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/et_nome"
+                android:inputType="textCapWords"
+                android:hint="Ex:Jairo Chaves"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="@string/cpf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:maxLength="14"
+                android:hint="@string/ex_123_456_789_00"
+                android:id="@+id/et_cpf"
+                android:inputType="phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="@string/idade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:hint="Ex:29"
+                android:id="@+id/et_idade"
+                android:maxLength="3"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="@string/telefone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:hint="@string/mascara_telefone"
+                android:id="@+id/et_telefone"
+                android:maxLength="14"
+                android:inputType="phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="@string/e_mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:inputType="textEmailAddress"
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+        <Button
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/branco"
+            android:layout_margin="10dp"
+            android:id="@+id/btn_cadastrar"
+            android:text="@string/cadastrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/branco"
+            android:layout_margin="10dp"
+            android:id="@+id/btn_view"
+            android:text="@string/view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/branco"
+            android:layout_margin="10dp"
+            android:id="@+id/btn_voltar"
+            android:text="@string/voltar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+   </LinearLayout>
+
+</ScrollView>
